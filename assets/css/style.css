@@ -47,17 +47,17 @@ header img {
 
 header>div {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
 .lapTop {
-    margin: 0 75px 0 0;
+    margin: 0 50px 0 0;
     color: #323A45;
 }
 
 header>div div {
-    margin: 20px 0 50px 75px;
+    margin: 20px 0 50px 50px;
 }
 
 header>div div h2 {
@@ -70,6 +70,7 @@ header>div div h2 {
 header>div div p {
     text-align: start;
     color: #848484;
+    font-size: 12px;
 }
 
 
@@ -329,13 +330,13 @@ header>div div p {
     justify-content: space-between;
 }
 
-.lapTop {
-    margin: 0 75px 0 0;
+.dieterRams {
+    margin: 0 50px 0 0;
     color: #323A45;
 }
 
 .section2>div div {
-    margin: 20px 0 50px 75px;
+    margin: 20px 0 50px 50px;
 }
 
 .section2>div div h2 {
@@ -377,13 +378,13 @@ header>div div p {
     justify-content: space-between;
 }
 
-.lapTop {
-    margin: 0 75px 0 0;
+.arigato {
+    margin: 0 50px 0 0;
     color: #323A45;
 }
 
 .section4>div div {
-    margin: 20px 0 50px 75px;
+    margin: 20px 0 50px 50px;
 }
 
 .section4>div div h2 {
@@ -425,13 +426,13 @@ header>div div p {
     justify-content: space-between;
 }
 
-.lapTop {
-    margin: 0 75px 0 0;
+.Hudson {
+    margin: 0 50px 0 0;
     color: #323A45;
 }
 
 .section6>div div {
-    margin: 20px 0 50px 75px;
+    margin: 20px 0 50px 50px;
 }
 
 .section6>div div h2 {
@@ -475,13 +476,13 @@ header>div div p {
     justify-content: space-between;
 }
 
-.lapTop {
-    margin: 0 75px 0 0;
+.bottle {
+    margin: 0 50px 0 0;
     color: #323A45;
 }
 
 .section8>div div {
-    margin: 20px 0 50px 75px;
+    margin: 20px 0 50px 50px;
 }
 
 .section8>div div h2 {

@@ -26,6 +26,11 @@ header nav h1 {
     font-weight: 400;
 }
 
+header nav h1:hover {
+    cursor: pointer;
+    color: #848484;
+}
+
 header nav ul {
     display: flex;
     list-style: none;
@@ -33,16 +38,26 @@ header nav ul {
 }
 
 header nav ul li {
-    padding-right: 50px;
+    margin-right: 50px;
     font-size: 0.8rem;
     font-weight: 400;
     color: #323A45;
+}
+
+header nav ul li:hover {
+    color: #848484;
+    cursor: pointer;
 }
 
 header img {
     width: 93%;
     margin: 100px 0 0 0;
     border-radius: 5px;
+}
+
+header img:hover {
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
 header>div {
@@ -85,6 +100,11 @@ header>div div p {
     width: 90%;
     margin: 0 0 0 50px;
     padding-bottom: 35px;
+}
+
+.article1:hover {
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
 .article1 img {
@@ -131,6 +151,11 @@ header>div div p {
     grid-column: 2/3;
 }
 
+.article2:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
 .article2>div {
     display: flex;
     justify-content: space-between;
@@ -167,6 +192,11 @@ header>div div p {
 .article3 img {
     width: 100%;
     grid-column: 3/4;
+}
+
+.article3:hover {
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
 .article3>div {
@@ -208,6 +238,11 @@ header>div div p {
     grid-row: 2/3;
 }
 
+.article4:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
 .article4>div {
     display: flex;
     justify-content: space-between;
@@ -245,6 +280,11 @@ header>div div p {
     width: 100%;
     grid-column: 2/3;
     grid-row: 2/3;
+}
+
+.article5:hover {
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
 .article5>div {
@@ -286,6 +326,11 @@ header>div div p {
     grid-row: 2/3;
 }
 
+.article6:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
 .article6>div {
     display: flex;
     justify-content: space-between;
@@ -324,9 +369,14 @@ header>div div p {
     border-radius: 10px;
 }
 
+.section2 img:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
 .section2>div {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
@@ -349,6 +399,7 @@ header>div div p {
 .section2>div div p {
     text-align: start;
     color: #848484;
+    font-size: 12px;
 }
 
 
@@ -374,7 +425,7 @@ header>div div p {
 
 .section4>div {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
@@ -397,6 +448,7 @@ header>div div p {
 .section4>div div p {
     text-align: start;
     color: #848484;
+    font-size: 12px;
 }
 
 
@@ -422,7 +474,7 @@ header>div div p {
 
 .section6>div {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
@@ -472,7 +524,7 @@ header>div div p {
 
 .section8>div {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
@@ -495,9 +547,46 @@ header>div div p {
 .section8>div div p {
     text-align: start;
     color: #848484;
+    font-size: 12px;
 }
 
 .section9 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+
+/*##########FOOTER##########*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10vw 70px 0;
+}
+
+footer>div {
+    margin: 0 0 0 50px;
+}
+
+footer h2 {
+    padding: 0 0 30px 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+footer span {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.lastFooter {
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0 0 20px 50px;
+    color: #848484;
 }

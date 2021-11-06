@@ -632,6 +632,11 @@ footer span {
 @media(max-width: 375px) {
     body {
         width: 100vw;
+        overflow-x: hidden;
+    }
+    main {
+        width: 100vw;
+        overflow-x: hidden;
     }
     /*##########HEADER##########*/
     .menue {
@@ -664,6 +669,11 @@ footer span {
     header nav h1:hover {
         cursor: pointer;
         color: #848484;
+    }
+    header img {
+        width: 90%;
+        margin: 50px 0 0 0;
+        border-radius: 5px;
     }
     .ulOld {
         display: flex;
@@ -708,7 +718,7 @@ footer span {
         color: #323A45;
     }
     header>div div {
-        margin: 10px 0 50px 0px;
+        margin: 10px 0 30px 0px;
     }
     header>div div h2 {
         font-weight: 400;
@@ -966,7 +976,7 @@ footer span {
     footer {
         display: flex;
         justify-content: space-evenly;
-        width: 98vw;
+        width: 95vw;
         margin: 50px 0vw 70px 0;
     }
     footer>div {
@@ -998,5 +1008,12 @@ footer span {
     }
     .email {
         cursor: pointer;
+    }
+    .backBTN {
+        color: white;
+        padding-left: 100px;
+    }
+    .arrow {
+        width: 7%;
     }
 }

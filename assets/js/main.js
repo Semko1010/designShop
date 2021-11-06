@@ -1,9 +1,5 @@
-let name = document.getElementById("name")
-let email = document.getElementById("email")
-let message = document.getElementById("message")
+let ul = document.getElementById("ul");
 
-function send() {
-    console.log(name.value)
-    console.log(email.value)
-    console.log(message.value)
+function menue() {
+    ul.classList.toggle("ulNew");
 }

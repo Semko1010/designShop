@@ -423,6 +423,11 @@ header>div div p {
     border-radius: 10px;
 }
 
+.section4 img:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
 .section4>div {
     display: flex;
     align-items: baseline;
@@ -470,6 +475,11 @@ header>div div p {
     width: 93%;
     margin: 60px 0 0 0;
     border-radius: 10px;
+}
+
+.section6 img:hover {
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
 .section6>div {
@@ -520,6 +530,11 @@ header>div div p {
     width: 93%;
     margin: 60px 0 0 0;
     border-radius: 10px;
+}
+
+.section8 img:hover {
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
 .section8>div {
@@ -589,4 +604,12 @@ footer span {
     font-weight: 100;
     margin: 0 0 20px 50px;
     color: #848484;
+}
+
+.subscribe {
+    cursor: pointer;
+}
+
+.email {
+    cursor: pointer;
 }

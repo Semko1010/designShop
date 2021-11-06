@@ -50,7 +50,8 @@ header nav h1:hover {
 }
 
 .ulhigh {
-    display: none;
+    opacity: 0;
+    position: absolute;
 }
 
 header img {
@@ -629,6 +630,9 @@ footer span {
 /*##########@Media##########*/
 
 @media(max-width: 375px) {
+    body {
+        width: 100vw;
+    }
     /*##########HEADER##########*/
     .menue {
         display: block;
@@ -642,9 +646,6 @@ footer span {
         height: 2px;
         padding: 1px 5px;
         margin: 2px 0;
-    }
-    .ulNew {
-        display: inline-block;
     }
     header {
         text-align: center;
@@ -670,18 +671,26 @@ footer span {
         list-style: none;
         margin: 0px 0px 0 0;
     }
-    .ulNew {
-        display: block;
-        margin: 150px 20px 0 0;
-        position: absolute;
-        text-align: center;
-        list-style: none;
-        transition: 1s;
-        background: linear-gradient(rgb(255, 255, 255, 0.3), rgb(0, 0, 0, 0.3))
+    .list {
+        margin: 120px 0 0 0;
     }
-    .ulNew li {
-        font-size: 12px;
-        padding: 10px 0;
+    .list li {
+        list-style: none;
+        font-size: 24px;
+        padding: 50px 0;
+        font-weight: 400;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+    .ulNew {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        height: 0;
+        opacity: 0;
+        text-align: center;
+        background: linear-gradient(rgb(255, 255, 255, 0.9), rgb(0, 0, 0, 0.9));
+        transition: 1s ease;
     }
     .ulOld li {
         margin-right: 50px;
@@ -689,30 +698,17 @@ footer span {
         font-weight: 400;
         color: #323A45;
     }
-    .ulOld li:hover {
-        color: #848484;
-        cursor: pointer;
-    }
-    header img {
-        width: 93%;
-        margin: 100px 0 0 0;
-        border-radius: 5px;
-    }
-    header img:hover {
-        opacity: 0.7;
-        transition: 0.5s;
-    }
     header>div {
         display: flex;
         align-items: baseline;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .lapTop {
-        margin: 0 50px 0 0;
+        margin: 0 0px 0 0;
         color: #323A45;
     }
     header>div div {
-        margin: 20px 0 50px 50px;
+        margin: 10px 0 50px 0px;
     }
     header>div div h2 {
         font-weight: 400;
@@ -724,5 +720,283 @@ footer span {
         text-align: start;
         color: #848484;
         font-size: 12px;
+    }
+    /*##########SECTION1-ARTICLE1##########*/
+    .section1 {
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+    }
+    .article1 {
+        width: 80%;
+        margin: 0 0 0 20px;
+        padding-bottom: 30px;
+    }
+    .article1>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .article1>div>div h2 {
+        font-size: 12px;
+        color: #323A45;
+        font-weight: 400;
+        padding: 0px 0 0 0;
+    }
+    .swingLamp {
+        color: #323A45;
+        font-size: 14px;
+    }
+    /*##########SECTION1-ARTICLE2##########*/
+    .article2 {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .article2>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .article2>div>div h2 {
+        font-size: 12px;
+        color: #323A45;
+        font-weight: 400;
+        padding: 0px 0 0 0;
+    }
+    /*##########SECTION1-ARTICLE3##########*/
+    .article3 {
+        width: 80%;
+        padding: 0 0 30px 20px;
+    }
+    .article3>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .article3>div>div h2 {
+        font-size: 12px;
+        color: #323A45;
+        font-weight: 400;
+        padding: 0px 0 0 0;
+    }
+    /*##########SECTION1-ARTICLE4##########*/
+    .article4 {
+        width: 80%;
+        margin: 0 0 0 20px;
+    }
+    .article4>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .article4>div>div h2 {
+        font-size: 12px;
+        color: #323A45;
+        font-weight: 400;
+        padding: 0px 0 0 0;
+    }
+    /*##########SECTION1-ARTICLE5##########*/
+    .article5 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .article5>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .article5>div>div h2 {
+        font-size: 11px;
+        color: #323A45;
+        font-weight: 400;
+        padding: 0px 0 0 0;
+    }
+    /*##########SECTION1-ARTICLE6##########*/
+    .article6 {
+        width: 80%;
+        margin: 0px 0 0 20px;
+    }
+    .article6>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .article6>div>div h2 {
+        font-size: 12px;
+        color: #323A45;
+        font-weight: 400;
+        padding: 0px 0 0 0;
+    }
+    /*##########SECTION2##########*/
+    .section2 {
+        text-align: center;
+        width: 100vw;
+    }
+    .section2 img {
+        width: 90%;
+        margin: 50px 0 0 0;
+        border-radius: 5px;
+    }
+    .section2>div {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .dieterRams {
+        margin: 0 20px 0 0;
+        color: #323A45;
+    }
+    .section2>div div {
+        margin: 0px 0 50px 20px;
+    }
+    .section2>div div h2 {
+        font-weight: 400;
+        padding: 0 0 5px 0;
+        color: #323A45;
+        font-size: 12px;
+    }
+    .section2>div div p {
+        text-align: start;
+        color: #848484;
+        font-size: 12px;
+    }
+    /*##########SECTION3##########*/
+    .section3 {
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+    }
+    /*##########SECTION4##########*/
+    .section4 {
+        text-align: center;
+        width: 100vw;
+    }
+    .section4 img {
+        width: 90%;
+        margin: 50px 0 0 0;
+        border-radius: 5px;
+    }
+    .section4>div {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .arigato {
+        margin: 0 20px 0 0;
+        color: #323A45;
+    }
+    .section4>div div {
+        margin: 0px 0 50px 20px;
+    }
+    .section4>div div h2 {
+        font-weight: 400;
+        padding: 0 0 5px 0;
+        color: #323A45;
+        font-size: 12px;
+    }
+    /*##########SECTION5##########*/
+    .section5 {
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+    }
+    /*##########SECTION6##########*/
+    .section6 {
+        text-align: center;
+        width: 100vw;
+    }
+    .section6 img {
+        width: 90%;
+        margin: 50px 0 0 0;
+        border-radius: 5px;
+    }
+    .Hudson {
+        margin: 0 20px 0 0;
+        color: #323A45;
+    }
+    .section6>div div {
+        margin: 0px 0 50px 20px;
+    }
+    .section6>div div h2 {
+        font-weight: 400;
+        padding: 0 0 5px 0;
+        color: #323A45;
+        font-size: 12px;
+    }
+    /*##########SECTION7##########*/
+    .section7 {
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+    }
+    /*##########SECTION8##########*/
+    .section8 {
+        text-align: center;
+        width: 100vw;
+    }
+    .section8 img {
+        width: 90%;
+        margin: 50px 0 0 0;
+        border-radius: 5px;
+    }
+    .bottle {
+        margin: 0 20px 0 0;
+        color: #323A45;
+    }
+    .section8>div div {
+        margin: 0px 0 50px 20px;
+    }
+    .section8>div div h2 {
+        font-weight: 400;
+        padding: 0 0 5px 0;
+        color: #323A45;
+        font-size: 12px;
+    }
+    .section9 {
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+    }
+    .refresh {
+        width: 100vw;
+    }
+    .refresh img {
+        width: 90%;
+    }
+    .longBoard {
+        margin-right: 40px;
+    }
+    /*##########FOOTER##########*/
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        width: 98vw;
+        margin: 50px 0vw 70px 0;
+    }
+    footer>div {
+        margin: 0 0 0 20px;
+    }
+    footer h2 {
+        padding: 0 0 30px 0;
+        font-size: 12px;
+        font-weight: 900;
+        text-decoration: underline;
+    }
+    footer p {
+        font-size: 12px;
+        font-weight: 300;
+        padding: 0 0 0px 0;
+    }
+    footer span {
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .lastFooter {
+        font-size: 12px;
+        font-weight: 100;
+        margin: 0 0 20px 20px;
+        color: #848484;
+    }
+    .subscribe {
+        cursor: pointer;
+    }
+    .email {
+        cursor: pointer;
     }
 }

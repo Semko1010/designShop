@@ -1020,4 +1020,47 @@ footer span {
     .arrow {
         width: 7%;
     }
+    /*##########THE-DESIGN_SHOP*/
+    .container {
+        margin-top: 60px;
+    }
+    .container .box {
+        transform-style: preserve-3d;
+        animation: animate 25s linear infinite;
+    }
+    @keyframes animate {
+        0% {
+            transform: perspective(1000px)rotateX(0deg)rotate(15deg);
+        }
+        100% {
+            transform: perspective(1000px)rotateX(360deg)rotate(15deg);
+        }
+    }
+    .container .box span {
+        position: absolute;
+        color: white;
+        font-size: 1.2rem;
+        white-space: nowrap;
+        text-transform: uppercase;
+        font-weight: 900;
+        padding: 0px 50px;
+        line-height: 10px;
+        background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.6), transparent);
+        transform-style: preserve-3d;
+        text-shadow: 0 0 50px white;
+        box-shadow: 0 0 100px black;
+        transform: translate(-50%, -50%) rotateX(calc(var(--i)* 22.5deg)) translateZ(30px);
+    }
+    .container .box span i:nth-child(1) {
+        font-style: initial;
+        color: rgb(255, 255, 255);
+    }
+    .container .box span i:nth-child(2) {
+        font-style: initial;
+        color: rgb(255, 255, 255);
+    }
+    .container .box span i:nth-child(3) {
+        font-style: initial;
+        color: rgb(255, 255, 255);
+    }
 }

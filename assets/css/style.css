@@ -52,7 +52,6 @@ header nav h1:hover {
 .ulhigh {
     opacity: 0;
     height: 0;
-    width: 0;
     position: absolute;
 }
 
@@ -697,6 +696,8 @@ footer span {
         position: absolute;
         bottom: 0;
         height: 0;
+        width: 0;
+        overflow-x: hidden;
         opacity: 0;
         text-align: center;
         background: linear-gradient(rgb(255, 255, 255, 0.9), rgb(0, 0, 0, 0.9));

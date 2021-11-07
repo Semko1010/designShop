@@ -3,7 +3,7 @@ let change = document.getElementById("change")
 let change1 = document.getElementById("change1")
 
 function menue() {
-    ul.style.height = "100%"
+    ul.style.height = "100vh"
     ul.style.opacity = "1"
     ul.style.width = "100%"
     change.style.opacity = "1"

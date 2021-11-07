@@ -7,7 +7,8 @@ function menue() {
     ul.style.opacity = "1"
     ul.style.width = "100%"
     change.style.opacity = "1"
-    change1.style.fontSize = "22px"
+    change1.style.fontSize = "20px"
+
 }
 
 function back() {
